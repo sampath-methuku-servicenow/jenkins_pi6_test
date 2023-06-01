@@ -6,7 +6,7 @@ stages {
          stage('Build-Step') {
  
              steps {
-                     echo 'Build Step 23 TESTING '
+                     echo 'Build Step 23 testinggg '
              }
          }
      
