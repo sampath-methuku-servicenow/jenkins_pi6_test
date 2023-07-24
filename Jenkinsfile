@@ -7,6 +7,15 @@ stages {
  
              steps {
                      echo 'Build Step Jenkins_pi6_test 23 '
+                    script{
+
+                         bash '''
+            #!/bin/bash
+            echo "testing "> ./test.js
+            ls -ltr ./*.js
+         '''
+                    }
+                 
              }
          }
 
