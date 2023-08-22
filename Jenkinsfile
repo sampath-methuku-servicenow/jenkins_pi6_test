@@ -23,7 +23,9 @@ stages {
 
         stage('Change-Step') {
               steps {
+                  
                    echo 'Change Step'
+                  snDevOpsChange()
                    
               }
         }
